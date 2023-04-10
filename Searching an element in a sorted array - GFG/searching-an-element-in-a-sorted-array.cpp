@@ -19,9 +19,9 @@ class Solution{
        while(low<=high)
        {
            int mid=high+low;
-           if(mid%2)
+           /*if(mid%2)
              mid=(mid/2)+1;
-            else 
+            else */
              mid=mid/2;
            if(k==arr[mid])
             return 1;
